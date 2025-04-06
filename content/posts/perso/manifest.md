@@ -1,6 +1,6 @@
 ---
 title: "Pourquoi ce blog existe"
-date: "2025-03-23T19:20:00Z"
+date: "2025-03-23T19:20:00"
 hero: "/images/posts/perso/hero_manifest.webp"
 tags: ["présentation", "blog"]
 categories: ["introduction"]

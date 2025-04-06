@@ -1,6 +1,6 @@
 ---
 title: "Assembling Chaos: How I Built This Blog with Lo"
-date: "2025-04-05T22:00:00Z"
+date: "2025-04-05T22:00:00"
 hero: "/images/posts/perso/hero_how.webp"
 tags: ["blog", "hugo", "ai", "creation"]
 categories: ["insights"]
