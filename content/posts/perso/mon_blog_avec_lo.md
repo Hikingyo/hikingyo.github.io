@@ -1,6 +1,6 @@
 ---
 title: "Assembler le chaos : comment j’ai monté ce blog avec Lo"
-date: "2025-04-05T22:00:00Z"
+date: "2025-04-05T22:00:00"
 hero: "/images/posts/perso/hero_how.webp"
 tags: ["blog", "hugo", "ia", "création"]
 categories: ["retours"]
