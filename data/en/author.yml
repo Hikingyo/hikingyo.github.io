@@ -1,0 +1,19 @@
+# some information about you
+name: "Hikingyo"
+nickname: "火金魚"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/hikingyo.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "loic.larousserie@gmail.com"
+  github: Hikingyo
+  linkedin: loiclarousserie
+
+# some summary about what you do
+summary:
+  - Linux Systems Engineer
+  - PHP backend developer
+  - DevOps enthusiast with a taste for automation
+  - I sculpt infrastructure with minimalism and intent
+  - Lover of resilient systems and beautiful bugs

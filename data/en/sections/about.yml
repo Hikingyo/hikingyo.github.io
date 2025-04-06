@@ -1,0 +1,66 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Linux Systems Engineer & Tamer of Bugs
+# your company information
+company:
+  name: Ecritel
+  url: "https://www.ecritel.fr/en/"
+
+# your resume. this file path should be relative to you "static" directory
+#resume: "files/resume.pdf"
+
+# a summary about you
+summary: |
+  Linux Systems Engineer @ Ecritel.  
+  I approach infrastructure and software like a craft — clean design, stable systems, no nonsense.
+  Developer roots, DevOps habits, and a clear north star: becoming a software architect with intent and integrity.
+  I believe in self-hosting, minimalism, and tools that do one thing well.
+  Also: strong opinions, black olives, and a weakness for beautifully written code.
+
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+  - name: Email
+    icon: "fas fa-envelope"
+    url: "loic.larousserie@gmail.com"
+
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://www.github.com/Hikingyo"
+
+  - name: LinkedIn
+    icon: "fab fa-linkedin"
+    url: "https://www.linkedin.com/in/lo%C3%AFc-larousserie-0b996379/"
+
+  - name: X-Twitter
+    icon: "fab fa-x-twitter"
+    url: "https://twitter.com/hikingyo"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+  - type: soft-skill-indicator
+    name: Resilience
+    percentage: 90
+    color: "#8A2BE2"  # Violet spectral (tenace, souterrain)
+
+  - type: soft-skill-indicator
+    name: Organic Leadership
+    percentage: 70
+    color: "#FF2E9E"  # Rose intense (relationnel, vivant)
+
+  - type: soft-skill-indicator
+    name: Pragmatic Innovation
+    percentage: 80
+    color: "#00CFFF"  # Bleu électrique (vision, action)
+
