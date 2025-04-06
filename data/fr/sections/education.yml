@@ -1,0 +1,33 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+  - name: Licence Professionnelle DAWIN - Développement d'Applications Web et Innovation Numérique
+    icon: fa-laptop-code
+    timeframe: 2016-2017
+    institution:
+      name: IUT Bordeaux
+      url: "https://www.iut.u-bordeaux.fr/info/"
+      logo: /images/sections/education/iut_bordeaux_logo.svg
+  - name: DUT Informatique
+    icon: fa-desktop
+    timeframe: 2015-2016
+    institution:
+      name: IUT Bordeaux
+      url: "https://www.iut.u-bordeaux.fr/info/"
+      logo: /images/sections/education/iut_bordeaux_logo.svg
+  - name: Two-year Technical Degree in Cast Alloy Processing
+    icon: fa-industry
+    timeframe: 2012-2014
+    institution:
+      name: Lycée Loritz (Nancy)
+      url: "https://www.loritz.fr/"
+      logo: /images/sections/education/loritz_logo.png

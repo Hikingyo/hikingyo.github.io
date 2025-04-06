@@ -1,0 +1,89 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+experiences:
+  - company:
+      name: Ecritel
+      url: https://www.ecritel.fr/
+      location: Bordeaux, Nouvelle-Aquitaine, France (hybride
+      logo: /images/sections/experiences/ecritel.png
+    positions:
+      - designation: Ingénieur systèmes Linux
+        start: janv. 2025
+        responsibilities:
+          - Gestion d'infrastructures hybrides et maintien en condition opérationnelle.
+          - Industrialisation des déploiements et supervision avancée.
+          - Contribution aux projets internes avec une forte autonomie.
+
+  - company:
+      name: MEVIA DIGITAL / AlumnForce
+      url: https://www.alumnforce.com/
+      location: Bordeaux, France (remote)
+      logo: /images/sections/experiences/alumnforce.webp
+    positions:
+      - designation: Développeur web / DevOps
+        start: oct. 2018
+        end: avr. 2024
+        responsibilities:
+          - Développement backend PHP et gestion des pipelines CI/CD.
+          - Mise en place d’automatisations avec Ansible et Docker.
+          - Participation active à l'évolution produit et au support technique.
+          - Gestion d'infrastructures hybrides et maintien en condition opérationnelle.
+
+  - company:
+      name: Time One
+      location: Pessac, France
+      logo: /images/sections/experiences/timeone.png
+    positions:
+      - designation: Développeur web
+        start: juin 2018
+        end: oct. 2018
+        responsibilities:
+          - Développement PHP orienté objet pour le web marketing.
+          - Refonte de modules internes et amélioration des performances.
+
+  - company:
+      name: Université de Bordeaux
+      url: https://www.u-bordeaux.fr/
+      location: Bordeaux, France
+      logo: /images/sections/experiences/logo-univ-bdx.png
+    positions:
+      - designation: Enseignant vacataire
+        start: janv. 2018
+        end: oct. 2018
+        responsibilities:
+          - Intervention en Licence Pro ADSILLH (accessibilité numérique).
+          - Enseignement des fondamentaux du développement web.
+
+  - company:
+      name: Aliénor.net
+      location: Bordeaux, France
+      logo: /images/sections/experiences/alienor_net.jpeg
+    positions:
+      - designation: Développeur d’applications web
+        start: oct. 2017
+        end: mai 2018
+        responsibilities:
+          - Développement de solutions métiers en lien avec la fidélisation client.
+          - Intégration de fonctionnalités spécifiques en PHP.
+
+  - company:
+      name: SQLI (alternance)
+      url: https://www.sqli.com/
+      location: Pessac, France
+      logo: /images/sections/experiences/sqli.png
+    positions:
+      - designation: Développeur web en alternance
+        start: sept. 2016
+        end: oct. 2017
+        responsibilities:
+          - Développement backend PHP au sein d'une équipe Agile.
+          - Réalisation de projets clients et prototypes internes.
+          - Première immersion professionnelle structurante.

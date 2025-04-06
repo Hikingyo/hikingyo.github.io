@@ -1,0 +1,87 @@
+# section information
+section:
+  name: Experience
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+
+experiences:
+  - company:
+      name: Ecritel
+      url: https://www.ecritel.fr/
+      location: Bordeaux, Nouvelle-Aquitaine, France (hybrid)
+      logo: /images/sections/experiences/ecritel.png
+    positions:
+      - designation: Linux Systems Engineer
+        start: Jan 2025
+        responsibilities:
+          - Managing hybrid infrastructure and ensuring operational reliability.
+          - Deployment industrialization and advanced monitoring.
+          - Contributing to internal projects with a high level of autonomy.
+
+  - company:
+      name: MEVIA DIGITAL / AlumnForce
+      url: https://www.alumnforce.com/
+      location: Bordeaux, France (remote)
+      logo: /images/sections/experiences/alumnforce.webp
+    positions:
+      - designation: Web Developer / DevOps
+        start: Oct 2018
+        end: Apr 2024
+        responsibilities:
+          - Backend development with PHP and CI/CD pipeline management.
+          - Infrastructure automation with Ansible and Docker.
+          - Active participation in product evolution and technical support.
+          - Hybrid infrastructure maintenance and operational reliability.
+
+  - company:
+      name: Time One
+      location: Pessac, France
+      logo: /images/sections/experiences/timeone.png
+    positions:
+      - designation: Web Developer
+        start: Jun 2018
+        end: Oct 2018
+        responsibilities:
+          - Object-oriented PHP development for web marketing tools.
+          - Refactoring internal modules and improving performance.
+
+  - company:
+      name: University of Bordeaux
+      url: https://www.u-bordeaux.fr/
+      location: Bordeaux, France
+      logo: /images/sections/experiences/logo-univ-bdx.png
+    positions:
+      - designation: Adjunct Lecturer
+        start: Jan 2018
+        end: Oct 2018
+        responsibilities:
+          - Teaching web technologies in the Pro Bachelor's ADSILLH (Digital Accessibility) program.
+          - Delivering foundational courses on web development.
+
+  - company:
+      name: Aliénor.net
+      location: Bordeaux, France
+      logo: /images/sections/experiences/alienor_net.jpeg
+    positions:
+      - designation: Web Applications Developer
+        start: Oct 2017
+        end: May 2018
+        responsibilities:
+          - Developing business-specific tools related to customer loyalty.
+          - Implementing tailored PHP features for client platforms.
+
+  - company:
+      name: SQLI (apprenticeship)
+      url: https://www.sqli.com/
+      location: Pessac, France
+      logo: /images/sections/experiences/sqli.png
+    positions:
+      - designation: Web Developer Apprentice
+        start: Sep 2016
+        end: Oct 2017
+        responsibilities:
+          - Backend PHP development within an Agile team.
+          - Working on client projects and internal prototypes.
+          - First major professional immersion and skills consolidation.

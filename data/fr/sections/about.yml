@@ -1,0 +1,64 @@
+# section information
+section:
+  name: À propos
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Ingénieur Système Linux & Dompteur de bugs
+# your company information
+company:
+  name: Ecritel
+  url: "https://www.ecritel.fr/fr/"
+
+# your resume. this file path should be relative to you "static" directory
+#resume: "files/resume.pdf"
+
+# a summary about you
+summary: |
+  Ingénieur Système Linux chez Ecritel.  
+  J’aborde l’infrastructure et le dev comme un artisanat — design épuré, systèmes stables, zéro blabla.
+  Développeur de formation, DevOps par réflexe, avec une boussole claire : devenir architecte logiciel avec intention et exigence.
+  Je crois en l’auto-hébergement, le minimalisme, et les outils qui font une seule chose, mais parfaitement.
+  Aussi : convictions tranchées, olives noires, et un faible pour le code bien écrit.
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+  - name: Email
+    icon: "fas fa-envelope"
+    url: "loic.larousserie@gmail.com"
+
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://www.github.com/Hikingyo"
+
+  - name: LinkedIn
+    icon: "fab fa-linkedin"
+    url: "https://www.linkedin.com/in/lo%C3%AFc-larousserie-0b996379/"
+
+  - name: X-Twitter
+    icon: "fab fa-x-twitter"
+    url: "https://twitter.com/hikingyo"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+  - type: soft-skill-indicator
+    name: Résilience
+    percentage: 90
+    color: "#8A2BE2"
+
+  - type: soft-skill-indicator
+    name: Leadership organique
+    percentage: 70
+    color: "#FF2E9E"
+
+  - type: soft-skill-indicator
+    name: Innovation pragmatique
+    percentage: 80
+    color: "#00CFFF"

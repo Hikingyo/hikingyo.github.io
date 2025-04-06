@@ -1,0 +1,27 @@
+@import '@fontsource/fira-code';
+@import '@fontsource/ibm-plex-serif';
+
+body {
+  font-family: 'IBM Plex Serif', serif;
+  font-feature-settings: "liga", "kern";
+  font-variant-ligatures: common-ligatures;
+}
+
+code, pre, kbd, samp {
+  font-family: 'Fira Code', monospace;
+  font-size: 0.95em;
+  line-height: 1.4;
+}
+
+.home {
+  .background {
+    filter: none;
+  }
+}
+
+html[data-theme='dark'] .alert {
+  strong {
+    color: oklch(44.6% 0.043 257.281) !important; // slate-600
+  }
+}
+
