@@ -24,9 +24,9 @@ degrees:
       name: IUT Bordeaux
       url: "https://www.iut.u-bordeaux.fr/info/"
       logo: /images/sections/education/iut_bordeaux_logo.svg
-  - name: Two-year Technical Degree in Cast Alloy Processing
+  - name: Brevet de Technicien Supérieur Mise en Oeuvre des Alliages Moulés
     icon: fa-industry
-    timeframe: 2012-2014
+    timeframe: 2005-2007
     institution:
       name: Lycée Loritz (Nancy)
       url: "https://www.loritz.fr/"
