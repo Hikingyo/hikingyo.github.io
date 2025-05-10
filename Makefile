@@ -14,3 +14,7 @@ serve: ## Serve site
 
 clean: ## Clean site
 	rm -rf public/*
+	rm -rf resources/*
+
+install: ## Install dependencies
+	bash install.sh
