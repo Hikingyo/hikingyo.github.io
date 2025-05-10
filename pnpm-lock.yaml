@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@fontsource/fira-code':
-        specifier: ^5.2.5
-        version: 5.2.5
+        specifier: ^5.2.6
+        version: 5.2.6
       '@fontsource/ibm-plex-serif':
         specifier: ^5.2.5
         version: 5.2.5
@@ -116,8 +116,8 @@ packages:
     resolution: {integrity: sha512-d9zaMRSTIKDLhctzH12MtXvJKSSUhaHcjV+2Z+GK+EEY7XKpP5yR4x+N3TAcHTcu963nIr+TMcCb4DBCYX1z6Q==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
 
-  '@fontsource/fira-code@5.2.5':
-    resolution: {integrity: sha512-Rn9PJoyfRr5D6ukEhZpzhpD+rbX2rtoz9QjkOuGxqFxrL69fQvhadMUBxQIOuTF4sTTkPRSKlAEpPjTKaI12QA==}
+  '@fontsource/fira-code@5.2.6':
+    resolution: {integrity: sha512-wCkIpPm0BqlkCPLYeY4Vui96ODmVUV0/GpEe3OfJ4v8EJn/BF2SlyxvarFsTs1CKiGjrO2cXlIZbBrKi9F+hUQ==}
 
   '@fontsource/ibm-plex-serif@5.2.5':
     resolution: {integrity: sha512-0YyDEmqIqlMnPF/k1974zAJWjM9FNCg0TIYa9z6+W4koPmYf5llcOv6pqZK19zE/MnNxAJW0K18i5TEJE841YQ==}
@@ -1578,7 +1578,7 @@ snapshots:
 
   '@eslint/js@8.57.1': {}
 
-  '@fontsource/fira-code@5.2.5': {}
+  '@fontsource/fira-code@5.2.6': {}
 
   '@fontsource/ibm-plex-serif@5.2.5': {}
 
