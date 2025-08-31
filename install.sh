@@ -33,3 +33,14 @@ corepack enable pnpm
 pnpm -v
 
 pnpm install
+
+# Configurer git flow
+git config init.defaultBranch master
+git config gitflow.branch.master master
+git config gitflow.branch.develop develop
+git config gitflow.prefix.feature feature/
+git config gitflow.prefix.release release/
+git config gitflow.prefix.hotfix hotfix/
+git config gitflow.prefix.support support/
+git config gitflow.prefix.versiontag
+git config gitflow.path.hooks .git/hooks
