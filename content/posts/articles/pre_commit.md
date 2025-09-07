@@ -1,6 +1,6 @@
 ---
 title: "Pre-commit, pour des MR bien léchées"
-date: "2025-09-07T18:10:00"
+date: "2025-09-07T16:10:00"
 hero: "/images/posts/articles/pre_commit_workflow.webp"
 tags: ["git", "outils", "CI/CD", "qualité"]
 categories: ["outils", "CI/CD", "qualité"]
