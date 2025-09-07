@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hikingyo' Blog</title><link>https://example.org/</link><description>Recent content on Hikingyo' Blog</description><generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Sat, 05 Apr 2025 22:00:00 +0000</lastBuildDate><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Assembler le chaos : comment j’ai monté ce blog avec Lo</title><link>https://example.org/posts/perso/mon_blog_avec_lo/</link><pubDate>Sat, 05 Apr 2025 22:00:00 +0000</pubDate><guid>https://example.org/posts/perso/mon_blog_avec_lo/</guid><description>&lt;p>Ce blog n’est pas tombé du ciel.&lt;br>
-Il a été assemblé, avec du temps, des doutes, quelques jurons, et une IA nommée Lo en co-pilote.&lt;/p>
-&lt;hr>
-&lt;h2 id="pourquoi-ce-blog">Pourquoi ce blog&lt;/h2>
-&lt;p>J’en avais marre de laisser mes idées dans des README non commités, des bouts de Notion ou des coins de terminal.&lt;br>
-Il me fallait un endroit stable, &lt;strong>bilingue&lt;/strong>, que je puisse habiter sans avoir l’impression de vendre mon âme à LinkedIn.&lt;/p>
-&lt;p>J’ai choisi Hugo + le thème &lt;a href="https://toha-guides.netlify.app/posts/getting-started/" target="_blank" rel="noopener">Toha&lt;/a> pour son équilibre entre &lt;strong>structure propre&lt;/strong> et &lt;strong>design pas trop chiant à custom&lt;/strong>.&lt;/p></description></item><item><title>Pourquoi ce blog existe</title><link>https://example.org/posts/perso/manifest/</link><pubDate>Sun, 23 Mar 2025 19:20:00 +0000</pubDate><guid>https://example.org/posts/perso/manifest/</guid><description>&lt;p>Ce blog n’est pas un blog.&lt;/p>
-&lt;p>Pas un portfolio. Pas un tutoriel. Pas un journal intime.&lt;br>
-C’est un endroit où je déplie ce que je pense — quand j’en ai besoin.&lt;br>
-Parfois, c’est technique. Occasionnellement, ça ne l’est pas du tout.&lt;/p>
-&lt;p>C’est un journal d&amp;rsquo;exploration, de mémoire partielle, de contradictions parfois assumées.&lt;br>
-J’y parle de projets que je mène (ou que je laisse en plan), de réflexions qui me traversent (ou m’obsèdent),&lt;br>
-et de tentatives de comprendre comment tout ça s’agence — ou pas.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hikingyo' Blog</title><link>https://example.org/</link><description>Recent content on Hikingyo' Blog</description><generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Sat, 05 Apr 2025 22:00:00 +0000</lastBuildDate><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Assembler le chaos : comment j’ai monté ce blog avec Lo</title><link>https://example.org/posts/perso/mon_blog_avec_lo/</link><pubDate>Sat, 05 Apr 2025 22:00:00 +0000</pubDate><guid>https://example.org/posts/perso/mon_blog_avec_lo/</guid><description>&lt;p&gt;Ce blog n’est pas tombé du ciel.&lt;br&gt;
+Il a été assemblé, avec du temps, des doutes, quelques jurons, et une IA nommée Lo en co-pilote.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="pourquoi-ce-blog"&gt;Pourquoi ce blog&lt;/h2&gt;
+&lt;p&gt;J’en avais marre de laisser mes idées dans des README non commités, des bouts de Notion ou des coins de terminal.&lt;br&gt;
+Il me fallait un endroit stable, &lt;strong&gt;bilingue&lt;/strong&gt;, que je puisse habiter sans avoir l’impression de vendre mon âme à LinkedIn.&lt;/p&gt;
+&lt;p&gt;J’ai choisi Hugo + le thème &lt;a href="https://toha-guides.netlify.app/posts/getting-started/" target="_blank" rel="noopener"&gt;Toha&lt;/a&gt; pour son équilibre entre &lt;strong&gt;structure propre&lt;/strong&gt; et &lt;strong&gt;design pas trop chiant à custom&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Pourquoi ce blog existe</title><link>https://example.org/posts/perso/manifest/</link><pubDate>Sun, 23 Mar 2025 19:20:00 +0000</pubDate><guid>https://example.org/posts/perso/manifest/</guid><description>&lt;p&gt;Ce blog n’est pas un blog.&lt;/p&gt;
+&lt;p&gt;Pas un portfolio. Pas un tutoriel. Pas un journal intime.&lt;br&gt;
+C’est un endroit où je déplie ce que je pense — quand j’en ai besoin.&lt;br&gt;
+Parfois, c’est technique. Occasionnellement, ça ne l’est pas du tout.&lt;/p&gt;
+&lt;p&gt;C’est un journal d&amp;rsquo;exploration, de mémoire partielle, de contradictions parfois assumées.&lt;br&gt;
+J’y parle de projets que je mène (ou que je laisse en plan), de réflexions qui me traversent (ou m’obsèdent),&lt;br&gt;
+et de tentatives de comprendre comment tout ça s’agence — ou pas.&lt;/p&gt;</description></item></channel></rss>
