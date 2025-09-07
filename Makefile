@@ -16,5 +16,8 @@ clean: ## Clean site
 	rm -rf public/*
 	rm -rf resources/*
 
+check_dependencies: ## Check dependencies
+	@bash bin/check_dependencies.sh
+
 install: ## Install dependencies
-	bash install.sh
+	@bash bin/install.sh

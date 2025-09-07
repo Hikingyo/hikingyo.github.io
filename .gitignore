@@ -2,3 +2,5 @@
 !.gitkeep
 /resources/
 /node_modules/
+/.pnpm-store/
+/.idea/

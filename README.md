@@ -3,7 +3,7 @@
 [![Theme Update](https://github.com/Hikingyo/blog/actions/workflows/theme-update.yml/badge.svg)](https://github.com/Hikingyo/blog/actions/workflows/theme-update.yml)
 [![Deploy to GitHub Pages](https://github.com/Hikingyo/blog/actions/workflows/deploy-site.yml/badge.svg)](https://github.com/Hikingyo/blog/actions/workflows/deploy-site.yml)
 
-Site statique propulsé par [Hugo](https://gohugo.io/) et géré avec Go Modules + PNPM.  
+Site statique propulsé par [Hugo](https://gohugo.io/) et géré avec Go Modules + PNPM.
 Déploiement automatisé via GitHub Actions sur la branche `gh-pages`.
 
 > 📜 Licence [Beerware](./LICENSE.md) — tu kiffes ? Paye une bière 🍺
@@ -27,6 +27,8 @@ Déploiement automatisé via GitHub Actions sur la branche `gh-pages`.
 ```bash
 ./install.sh
 ```
+
+
 ---
 
 ## 📦 Dépendances
@@ -61,12 +63,12 @@ make install # Installe les dépendances
 
 ### 🎨 Mise à jour automatique
 
-`.github/workflows/theme-update.yml`  
+`.github/workflows/theme-update.yml`
 → Met à jour Hugo modules + dépendances NPM, puis ouvre une PR si besoin.
 
 ### 🚀 Déploiement continu
 
-`.github/workflows/deploy-site.yml`  
+`.github/workflows/deploy-site.yml`
 → Déploiement automatique sur `gh-pages` à chaque merge dans `master` via [peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages)
 
 ---

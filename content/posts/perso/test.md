@@ -13,11 +13,11 @@ menu:
 
 # Titre principal (H1)
 
-Un paragraphe de texte standard avec un peu de *mise en forme*, de **gras**, et de _soulignement simulé_.
+Un paragraphe de texte standard avec un peu de *mise en forme*, de **gras**, et de *soulignement simulé*.
 
 ## Titre secondaire (H2)
 
-Voici un lien : [Vers Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace)  
+Voici un lien : [Vers Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace)
 Et un autre avec `accent-color`.
 
 Un peu de texte en couleur atténuée :
@@ -41,7 +41,6 @@ function glitch() {
 ```
 
 ---
-
 
 ### Alertes
 

@@ -14,11 +14,11 @@ menu:
 
 # Main title (H1)
 
-Un paragraphe de texte standard avec un peu de *mise en forme*, de **gras**, et de _soulignement simulé_.
+Un paragraphe de texte standard avec un peu de *mise en forme*, de **gras**, et de *soulignement simulé*.
 
 ## Secondary title (H2)
 
-Here a link : [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace)  
+Here a link : [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace)
 And accent sentence `accent-color`.
 
 Some muted color text :
@@ -42,7 +42,6 @@ function glitch() {
 ```
 
 ---
-
 
 ### Alertes
 

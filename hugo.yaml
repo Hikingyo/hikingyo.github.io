@@ -54,7 +54,7 @@ params:
   # GitHub repo URL of your site
   gitRepo: https://github.com/Hikingyo/hikingyo.github.io
   # Default branch of your Git repo
-  gitBranch: main
+  gitBranch: master
 
   background: "images/background-light.webp"
   # Optional, for a different background image in dark mode

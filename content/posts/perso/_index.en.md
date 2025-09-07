@@ -2,7 +2,7 @@
 title: Stray thoughts and other oddities
 menu:
   sidebar:
-    name: Stray thoughts and other oddities
+    name: Blather
     identifier: perso
     weight: 300
 ---

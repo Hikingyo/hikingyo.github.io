@@ -3,7 +3,7 @@ section:
   name: À propos
   id: about
   enable: true
-  weight: 1
+  weight: 2
   showOnNavbar: true
   template: sections/about.html
 
@@ -19,7 +19,7 @@ company:
 
 # a summary about you
 summary: |
-  Ingénieur Système Linux chez Ecritel.  
+  Ingénieur Système Linux chez Ecritel.
   J’aborde l’infrastructure et le dev comme un artisanat — design épuré, systèmes stables, zéro blabla.
   Développeur de formation, DevOps par réflexe, avec une boussole claire : devenir architecte logiciel avec intention et exigence.
   Je crois en l’auto-hébergement, le minimalisme, et les outils qui font une seule chose, mais parfaitement.
