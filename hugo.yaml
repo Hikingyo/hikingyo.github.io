@@ -16,6 +16,12 @@ module:
       target: static/files
     - source: ./node_modules/katex/dist/fonts
       target: static/fonts
+    - source: ./casts
+      target: static/casts
+    - source: ./assets/fonts/FiraCode
+      target: static/fonts/FiraCode
+    - source: ../../node_modules/asciinema-player/dist/bundle/asciinema-player.css
+      target: assets/styles/asciinema/_asciinema.scss
 
 languages:
   en:
@@ -129,6 +135,8 @@ params:
         #   instance: matomo.example.com
         #   siteId: 1 # Or any other number
   # Configure footer
+    asciinema:
+      enable: true
   footer:
     enable: true
     newsletter:

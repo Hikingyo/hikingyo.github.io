@@ -19,7 +19,7 @@ company:
 
 # a summary about you
 summary: |
-  Linux Systems Engineer @ Ecritel.  
+  Linux Systems Engineer @ Ecritel.
   I approach infrastructure and software like a craft — clean design, stable systems, no nonsense.
   Developer roots, DevOps habits, and a clear north star: becoming a software architect with intent and integrity.
   I believe in self-hosting, minimalism, and tools that do one thing well.
@@ -63,4 +63,3 @@ badges:
     name: Pragmatic Innovation
     percentage: 80
     color: "#00CFFF"  # Bleu électrique (vision, action)
-

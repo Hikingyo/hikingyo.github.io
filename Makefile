@@ -12,7 +12,7 @@ help: ## Display this help
 serve: ## Serve site
 	hugo server -D --disableFastRender --buildDrafts --buildFuture --buildExpired -w
 
-clean: ## Clean site
+clean: ## Clean site generated files
 	rm -rf public/*
 	rm -rf resources/*
 
@@ -21,3 +21,6 @@ check_dependencies: ## Check dependencies
 
 install: ## Install dependencies
 	@bash bin/install.sh
+
+push-release: ## Push release
+	@git push origin master develop --tags

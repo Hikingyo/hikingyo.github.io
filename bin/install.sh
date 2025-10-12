@@ -5,26 +5,31 @@ set -e
 # 📦 Version de Hugo (tu peux en fixer une si tu veux)
 CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@latest
 
-echo "🧼 Nettoyage..."
-rm -f "$FILENAME" LICENSE README.md
-
 echo "✅ Hugo installé :"
 hugo version
 
-hogu mod tidy
+hugo mod tidy
 
-# Download and install nvm:
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
+# check if nvm is already installed
+if [ -d "$HOME/.nvm" ]; then
+  echo "nvm is already installed."
+  source "$HOME/.nvm/nvm.sh"
+else
+  echo "nvm is not installed. Installing..."
 
-# instead of restarting the shell
-source "$HOME/.nvm/nvm.sh"
+  # Download and install nvm:
+  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
 
-# Download and install Node.js:
-nvm install 23
+  # instead of restarting the shell
+  source "$HOME/.nvm/nvm.sh"
+
+  # Download and install Node.js:
+  nvm install 23
+fi
 
 # Verify the Node.js version:
-node -v # Should print "v23.10.0".
-nvm current # Should print "v23.10.0".
+echo "Node version from nodeJS : $(node -v)" # Should print "v23.10.0".
+echo "Node version from nvm $(nvm current)" # Should print "v23.10.0".
 
 # Download and install pnpm if not already installed using corepack (which comes with Node.js):
 corepack enable
@@ -35,6 +40,10 @@ pnpm -v
 
 # Install project dependencies using pnpm:
 pnpm install
+
+# Copy asciinema-player CSS to the assets/styles/asciinema directory
+mkdir -p assets/styles/asciinema
+cp node_modules/asciinema-player/dist/bundle/asciinema-player.css assets/styles/asciinema/_asciinema.scss
 
 # Installer git flow if needed
 if ! command -v git-flow &> /dev/null
@@ -56,7 +65,6 @@ fi
 # check git flow configuration
 if git config --get gitflow.branch.master &> /dev/null; then
     echo "git flow is already configured."
-    git config --get-regexp 'gitflow.*'
 else
     echo "git flow is not configured yet."
     # Configurer git flow
@@ -76,7 +84,10 @@ if ! command -v pre-commit &> /dev/null
 then
     echo "pre-commit could not be found, installing..."
     uv tool install pre-commit;
+    echo "Installing hooks..."
+    pre-commit install --install-hooks;
+else
+    echo "pre-commit is already installed."
 fi
 
-echo "Installing hooks..."
-pre-commit install --install-hooks;
+exit 0;
