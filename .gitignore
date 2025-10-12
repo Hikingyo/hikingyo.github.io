@@ -1,4 +1,5 @@
 /public/
+!/public/CNAME
 !.gitkeep
 /resources/
 /node_modules/
