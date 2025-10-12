@@ -23,4 +23,4 @@ install: ## Install dependencies
 	@bash bin/install.sh
 
 push-release: ## Push release
-	@git push origin master develop --tags
+	@git push origin --tags
