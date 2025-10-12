@@ -60,7 +60,7 @@ La [bibliothèque officielle](https://pre-commit.com/hooks.html) propose déjà 
 
 Et il est facile d'en trouver pléthore d'autres : [file:^.pre-commit-hooks.yaml$](https://sourcegraph.com/search?q=context:global+file:%5E.pre-commit-hooks.yaml%24&patternType=keyword&sm=0).
 
-L'un des aspects bien pratique des plugins `pre-commit` est qu'ils s'installent dans un environnement isolé
+L'un des aspects bien pratiques des plugins `pre-commit` est qu'ils s'installent dans un environnement isolé
 (virtuel pour Python, conteneur pour d'autres langages) et peuvent être mis à disposition via un repo git.
 Résultat : un standard clair, réplicable sur plusieurs projets, dans toute une organisation.
 
@@ -82,12 +82,14 @@ Première étape : vérifier qu'on a tout ce qu'il faut.
 Pour ça, j'ai choisi d'installer `pre-commit` avec `uv` (qui fera sans doute l'objet d'un futur article).
 Il nous faut donc `uv` et `python3`.
 
-```Makefile
+```makefile
 check_dependencies:
     @command -v python3 >/dev/null 2>&1 || { echo >&2 "python3 is required but it's not installed."; }
     @uv --version || (echo "uv is not installed. Please run `make install`")
     @pre-commit --version || (echo "pre-commit is not installed. Please run `make install`")
 ```
+
+{{< asciinema src="/casts/make_check_dep.cast" autoplay=true theme="dracula" cols="150" rows="20" >}}
 
 Ici, je laisse volontairement l'Ops installer python3 lui-même en fonction de son système et de ses préférences.
 Pour `uv` et `pre-commit`, j'ai choisi de les traiter comme dépendances directes du projet.
@@ -207,11 +209,12 @@ install:
 
 Je pense que le code parle de lui-même. On installe `uv` puis `pre-commit` en global, puis on installe les hooks pour le projet courant.
 
+{{< asciinema src="/casts/make_install.cast" autoplay=true theme="dracula" cols="150" rows="20" >}}
 
 Résultat :
 
 - Chaque dev installe les hooks en une commande.
-- Chaque dev appliq les mêmes standards sur le projet.
+- Chaque dev applique les mêmes standards sur le projet.
 - Chaque review se concentre sur le fond, pas sur les miettes.
 
 ## Aaaaaaand action
@@ -224,32 +227,19 @@ On prépare donc sa tambouille et on commit / push comme d'hab'.
 
 Il est possible de lancer les hooks manuellement avec :
 
-```bash
-pre-commit run --all-files # ici pour tout le repo sur l'étape pre-commit
-# ce qui donne
-[WARNING] Unstaged files detected.
-[INFO] Stashing unstaged files to /home/llarousserie/.cache/pre-commit/patch1757244598-3206571.
-Check hooks apply to the repository......................................Passed
-Check for useless excludes...............................................Passed
-Trim Trailing Whitespace.................................................Passed
-Fix End of Files.........................................................Failed
-- hook id: end-of-file-fixer
-- exit code: 1
-- files were modified by this hook
+{{< asciinema src="/casts/pre-commit_run.cast" autoplay=true theme="dracula" cols="150" rows="60" >}}
 
-Fixing bin/check_dependencies.sh
+Ici, plusieurs hooks se sont déclenchés :
 
-Check Yaml...............................................................Passed
-Check for added large files..............................................Passed
-markdownlint-cli2........................................................Passed
-[INFO] Restored changes from /home/llarousserie/.cache/pre-commit/patch1757244598-3206571
-```
-
-Ici, le hook `end-of-file-fixer` a corrigé un fichier → il suffit de re-stager et de re-commiter.
+- `trailing-whitespace` : a supprimé les espaces en fin de ligne.
+- `end-of-file-fixer` : a ajouté une ligne vide à la fin du fichier.
+- `check-added-large-files` : a bloqué le commit, car un fichier trop gros a été ajouté.
 
 Certains hooks **auto-fixent** les fichiers (ex. whitespace, EOF, formatters).
 
-D’autres (ex. `commitizen`) **bloque l'action** si la règle n’est pas respectée.
+D’autres (ex. `commitizen`) **bloque l'action** simplement si la règle n’est pas respectée.
+
+Dans tous les cas, les fichiers ne sont pas commités tant que tout n’est pas validé.
 
 Astuce : on peut lancer un hook spécifique avec :
 
@@ -258,6 +248,10 @@ pre-commit run <hook_id>
 ```
 
 Pratique pour tester une config ou faire du linting ponctuel.
+
+On corrige, et enfin:
+
+{{< asciinema src="/casts/pre-commit_run2.cast" autoplay=true theme="dracula" cols="150" rows="10" >}}'
 
 ## J'aime l'odeur du pre-commit le matin
 

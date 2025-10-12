@@ -17,7 +17,7 @@ Déploiement automatisé via GitHub Actions sur la branche `gh-pages`.
 - [Node.js 23](https://nodejs.org)
 - [pnpm](https://pnpm.io/) (v10+)
 - GitHub Actions pour update + déploiement
-- Script d’installation instantanée (`install.sh`)
+- `pre-commit` hooks
 - `Makefile` : commandes locales de dev
 
 ---
@@ -25,7 +25,7 @@ Déploiement automatisé via GitHub Actions sur la branche `gh-pages`.
 ## 🧰 Installation rapide
 
 ```bash
-./install.sh
+make install
 ```
 
 
@@ -50,12 +50,7 @@ pnpm add -D @fontsource/fira-code @fontsource/ibm-plex-serif
 
 ## ⚙️ Commandes `make`
 
-```bash
-make         # Affiche l'aide
-make serve   # Lance un serveur local
-make clean   # Nettoie les dossiers /public et /resources
-make install # Installe les dépendances
-```
+Run `make` to see all available commands.
 
 ---
 

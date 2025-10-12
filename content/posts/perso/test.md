@@ -59,3 +59,7 @@ function glitch() {
 <div class="alert alert-danger">
   <strong>Erreur !</strong> Quelque chose a mal tourné.
 </div>
+
+### Asciinema
+
+{{< asciinema src="/casts/demo.cast" autoplay=true theme="dracula" cols="100" rows="5" >}}

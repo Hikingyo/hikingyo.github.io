@@ -1,6 +1,22 @@
 @import '@fontsource/fira-code';
 @import '@fontsource/ibm-plex-serif';
 
+@font-face {
+  font-family: 'FiraCode Nerd Font Mono';
+  src: url('/fonts/FiraCode/FiraCodeNerdFontMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'FiraCode Nerd Font Mono';
+  src: url('/fonts/FiraCode/FiraCodeNerdFontMono-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+}
+
 body {
   font-family: 'IBM Plex Serif', serif;
   font-feature-settings: "liga", "kern";
@@ -25,3 +41,13 @@ html[data-theme='dark'] .alert {
   }
 }
 
+.notFound {
+  font-family: 'Fira Code', monospace;
+}
+
+div.ap-wrapper {
+  display: block !important;
+  outline: none;
+  height: auto !important;
+  text-align: center;
+}

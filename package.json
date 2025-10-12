@@ -31,10 +31,11 @@
     }
   },
   "devDependencies": {
-    "@fontsource/fira-code": "^5.2.6",
-    "@fontsource/ibm-plex-serif": "^5.2.5",
+    "@fontsource/fira-code": "^5.2.7",
+    "@fontsource/ibm-plex-serif": "^5.2.7",
     "@fontsource/mulish": "4.5.13",
     "@fortawesome/fontawesome-free": "^6.6.0",
+    "asciinema-player": "3.6.3",
     "autoprefixer": "^10.4.20",
     "bootstrap": "^5.3.3",
     "eslint": "^8.31.0",
@@ -54,7 +55,7 @@
     "ityped": "^1.0.3",
     "katex": "^0.16.11",
     "mark.js": "^8.11.1",
-    "mermaid": "^9.2.1",
+    "mermaid": "^11.9.0",
     "plyr": "^3.7.2",
     "popper.js": "^1.16.1",
     "postcss": "^8.4.41",
@@ -62,5 +63,5 @@
   },
   "name": "blog",
   "version": "0.1.0",
-  "packageManager": "pnpm@10.10.0+sha512.d615db246fe70f25dcfea6d8d73dee782ce23e2245e3c4f6f888249fb568149318637dca73c2c5c8ef2a4ca0d5657fb9567188bfab47f566d1ee6ce987815c39"
+  "packageManager": "pnpm@10.18.2+sha512.9fb969fa749b3ade6035e0f109f0b8a60b5d08a1a87fdf72e337da90dcc93336e2280ca4e44f2358a649b83c17959e9993e777c2080879f3801e6f0d999ad3dd"
 }
